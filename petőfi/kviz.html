@@ -10,8 +10,7 @@
 </head>
 
 <body>
-<h1>Kvíz</h1>
-<p>KVÍZ</p>
+  <h1>Kvíz</h1>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand">Petőfi Sándor</a>
@@ -37,14 +36,39 @@
       </div>
     </div>
   </nav>
-
+  <div class="container">
+      <h1>Lássuk mennyire ismered petőfit.</h1>
+        <div class="col-md-5 kerdesek">
+        <form id="kviz" name="kviz">
+          <p>1.Kérdés</p>
+          <p>Melyik évben született Petőfi?</p>
+          <input type="text" name="kerdes1">
+          <p>2.Kérdés</p>
+          <p>Kivel ismerkedett meg 1846-ban?</p>
+          <input type="radio" name="kerdes2" value="Szendrey Júlia">Szendrey Júlia<br>
+          <input type="radio" name="kerdes2" value="Csapó Etelka">Csapó Etelka<br><br>
+          <p>3.Kérdés</p>
+          <p>Mikor kötött szoros barátságot Arannyal?</p>
+          <input type="radio" name="kerdes3" value="A Toldi elolvasása után">A Toldi elolvasása után<br>
+          <input type="radio" name="kerdes3" value="Miután összeházasodott Szendrei Júliával">Miután összeházasodott Szendrei Júliával<br><br>
+          <p>4.Kérdés</p>
+          <p>Egészítsd ki a híres verscímet! Petőfi Sándor - Anyám ...</p>
+          <input type="text" name="kerdes4"><br><br>
+          <input type="button" value="kesz" onclick="check()">
+        </form>
+        <div id="kuldes">
+          <p id="uzenet"></p>
+          <p id="mennyi"></p>
+        </div>
+        </div>
+  </div>
 
   <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Készítette: Szanyi Levente, Gergely Szabolcs, Zsibók Bence</p>
     </div>
   </footer>
-
+<script src="kviz.js"></script>
 </body>
 
 </html>
