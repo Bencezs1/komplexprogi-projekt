@@ -37,6 +37,6 @@ function check(){
     }
 
     document.getElementById("uzenet").innerHTML = uzenet[pont];
-    document.getElementById("mennyi").innerHTML = "Neke " + pont + " pontod van.";
+    document.getElementById("mennyi").innerHTML = "Neked " + pont + " pontod van.";
 
 }
