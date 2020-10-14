@@ -3,10 +3,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    padding: 5px;
-}
-
 #kviz {
 
     margin-left: 10px;
@@ -30,21 +26,28 @@ input {
 }
 
 #button {
-    background: greenyellow;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    font-size: 16px;
-    transition-duration: .4s;
-    margin-top: 15px;
+	background: green;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
 }
 
 #button:hover {
-    background: white;
-    border: 1px solid red;
-    color: black;
-    cursor: pointer;
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
 }
-
-
+#kuldes {
+    visibility: hidden;
+	background: cyan;
+	padding: 10px 10px 10px 10px;
+	width: 300px;
+	border-radius: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+}
