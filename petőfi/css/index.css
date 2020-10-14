@@ -1,4 +1,10 @@
 body {
   padding-top: 55px;
   background-color: lightsalmon;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
 }

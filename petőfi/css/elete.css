@@ -1,3 +1,17 @@
 body {
     background-color: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.szoveg {
+    padding: 15px;
+    font-size: 17px;
+}
+
+img {
+    margin-left: 10px;
+    width: auto;
+    max-width: 100%;
+  }
+
+ 
