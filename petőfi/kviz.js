@@ -36,6 +36,7 @@ function check(){
         pont = 4;
     }
 
+    document.getElementById("kuldes").style.visibility = "visible";
     document.getElementById("uzenet").innerHTML = uzenet[pont];
     document.getElementById("mennyi").innerHTML = "Neked " + pont + " pontod van.";
 
